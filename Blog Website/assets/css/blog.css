@@ -32,26 +32,40 @@ body{
     align-items: center;
     padding: 5px;
     padding-right: 20px;
+    cursor: pointer;
 }
 button {
     background: transparent;
     border: none;
     color: white;
+    cursor: pointer;
 }
 a{
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 .brand{
     padding: 7px;
+    cursor: pointer;
 }
 .sign-in{
     padding: 7px;
+    cursor: pointer;
+    transition: .3s;
+}
+.sign-in:hover{
+    color: #ffdbc7;
 }
 .write {
     border: 3px solid #DB7437;
     padding: 5px;
     border-radius: 7px;
+    cursor: pointer;
+    transition: .3s;
+}
+.write:hover{
+    border: 3px solid #fa9c66;
 }
 .search-section{
     /* background-color: #64312F; */
@@ -98,6 +112,12 @@ input#search-btn {
     width: 90px;
     font-size: 20px;
     color:white;
+    cursor: pointer;
+    transition: .3s;
+}
+input#search-btn:hover{
+    background-color:#ffefd8;
+    color: #DB7437;
 }
 section.main {
     color: black;
@@ -201,6 +221,10 @@ span.category-title {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+}
+.icon-container:hover{
+    cursor: pointer;
+    transform: scale(1.06);
 }
 .copyright {
     font-size: 20px;
